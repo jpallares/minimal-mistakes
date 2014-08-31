@@ -26,12 +26,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Juan Pallarès
   avatar: bio-photo.jpg
   bio: "Describe your self."
   email: 
   disqus-shortname: 
-  twitter: #username
+  twitter: #jpallares
   facebook: #username
   google:
     plus: #username
@@ -42,7 +42,7 @@ owner:
   bing-verify: 
   github: #username
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: #jpallares
   instagram: #username
   lastfm: #username
   tumblr: #username
