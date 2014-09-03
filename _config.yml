@@ -2,8 +2,8 @@
 
 title:            Juan Pallarès
 locale:           en_US
-url:              http://jpallares.github.io
-
+# url:              http://jpallares.github.io
+url:              http://0.0.0.0:4000/
 
 # Jekyll configuration
 
@@ -30,12 +30,12 @@ owner:
   avatar: bio-photo.jpg
   bio: ".NET Software Engineer, football lover."
   email: juan@pallares.me
-  disqus-shortname: jpallares 
+  disqus-shortname: jpallares
   twitter: juanpallares
   facebook: 
   google:
     plus: JuanPallarèsGarbí
-    analytics: 
+    analytics: UA-54458401-1
     verify: 
     ad-client: 
     ad-slot: 
