@@ -39,7 +39,6 @@ comments: true
 ### Languages
 
 * Spanish - Native language
-* Catalan - Native language
 * English - Professional competence (CAE Certificate in Advanced English)
 * Italian - Basic level
 
