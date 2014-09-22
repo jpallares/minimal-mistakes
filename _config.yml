@@ -2,8 +2,8 @@
 
 title:            Juan Pallarès
 locale:           en_US
-#url:              http://juan.pallares.me
-url:              http://0.0.0.0:4000/
+url:              http://juan.pallares.me
+#url:              http://0.0.0.0:4000/
 
 # Jekyll configuration
 
@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Juan Pallarès
   avatar: bio-photo.jpg
-  bio: ".NET Software Engineer, football lover."
+  bio: ".NET Software Engineer, football and technology lover."
   email: juan@pallares.me
   disqus-shortname: jpallares
   twitter: juanpallares

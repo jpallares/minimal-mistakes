@@ -1,12 +1,13 @@
 ---
 layout: page
-title: cv
-tags: [.NET, software, engineer, cv, juan, pallares, WPF ]
+title: CV
 modified: 2014-09-08T20:53:07.573882-04:00
 comments: true
 ---
 
 **Keep in mind** In my [LinkedIn profile](http://linkedin.com/in/juanpallares) there is more detailed information
+
+---
 
 ### Training
 
