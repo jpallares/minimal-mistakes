@@ -1,0 +1,11 @@
+---
+title: "No funciona Intellisense en SQL Server Management Studio 2008"
+layout: post
+date: "2012-09-27 15:58:00"
+updated: "2013-07-04 20:56:49"
+tags: [SQL Server 2008, IDE, .NET, Management Studio, Visual Studio]
+---
+
+<div class="css-full-post-content js-full-post-content">
+<div class="separator" style="clear: both; text-align: center;"><a href="http://geekdeck.com/wp-content/uploads/2010/04/sql_server_2008_r2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://geekdeck.com/wp-content/uploads/2010/04/sql_server_2008_r2.jpg" /></a></div>Después de configurar todo el entorno de desarollo en una nueva máquina, me doy cuenta que en el Microsoft SQL Management Studio 2008 R2 no funciona el Intellisense<br /><br />La opción esta marcada y incluso desinstalar e instalar no soluciona el problema<br /><br />Finalmente la solución como siempre en <a href="http://stackoverflow.com/questions/552458/why-is-sql-server-2008-management-studio-intellisense-not-working">stackoverflow</a><br /><br />Al parecer es un <a href="https://connect.microsoft.com/SQLServer/feedback/details/650569/ssms-2008-r2-is-losing-intellisense-after-installing-visual-studio-2010-sp1">issue ya conocido</a>, al instalar SP1 al Visual Studio el Intellsense del Management Studio deja de funcionar<br /><br />Afortunadamente tiene solución, bajar esta <a href="http://support.microsoft.com/kb/2507770">actualización para SQL Server 2008 R2</a>, en concreto el paquete:<br /><br /><br /><span style="background-color: white; font-family: 'Segoe UI', Arial, Verdana, Tahoma, sans-serif; font-size: 11px;">SQLServer2008R2_RTM_CU7_2507770_10_50_1777_x64</span><br /><span style="background-color: white; font-family: 'Segoe UI', Arial, Verdana, Tahoma, sans-serif; font-size: 11px;">o</span><br /><span style="background-color: white; font-family: 'Segoe UI', Arial, Verdana, Tahoma, sans-serif; font-size: 11px;">SQLServer2008R2_RTM_CU7_2507770_10_50_1777_x86</span><br /><br /><br />Una vez instalado, Intellisense funciona a la perfección<br /><br />
+</div>

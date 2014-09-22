@@ -1,9 +1,7 @@
 ---
 layout: home
-excerpt: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "Juan Pallarès landing page"
+tags: [.NET, software, engineer]
 image:
   feature: texture-feature-01.jpg
-#  credit: Texture Lovers
-#  creditlink: http://texturelovers.com
 ---

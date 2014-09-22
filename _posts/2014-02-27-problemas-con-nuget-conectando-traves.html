@@ -1,0 +1,11 @@
+---
+title: "Problemas con NuGet conectando a través de un proxy (Error 407 Proxy Authentication Required)"
+layout: post
+date: "2014-02-27 20:00:00"
+updated: "2014-02-28 12:04:09"
+tags: [NuGet, error, Visual Studio, proxy]
+---
+
+<div class="css-full-post-content js-full-post-content">
+Me encontré el otro día con que no podía instalar paquetes desde NuGet en Visual Studio 2010. El error era <i>"Error 407 Proxy Authentication Required"</i>. No funcionaba tampoco desde la <i>Package Manager Console</i>. Recordé que recientemente había actualizado la password que usaba para el proxy (bueno, realmente estaba obligado por la política de caducidad).<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-QoNckcdN0vw/UxB7MxkeFDI/AAAAAAAAtxk/y6l-nr9Tbb0/s1600/nuget.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-QoNckcdN0vw/UxB7MxkeFDI/AAAAAAAAtxk/y6l-nr9Tbb0/s1600/nuget.png" height="97" width="320" /></a></div><br /><br /><div class="separator" style="clear: both; text-align: center;"></div>Al parecer NuGet no reconocía esta nueva password, aunque me la solicitara y yo la introdujera internamente no la actualizaba porque seguía saliendo el error.<br /><br />Al final, como no, <a href="http://stackoverflow.com/questions/9232160/nuget-behind-proxy" target="_blank">stackoverflow al rescate</a>. La solución era configurar la password mediante el fichero NuGet.config que podemos encontrar en <em style="background-color: white; border: 0px; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 17.804800033569336px; margin: 0px; padding: 0px; vertical-align: baseline;">C:\Users\nombreusuario\AppData\Roaming,&nbsp;</em>al menos en mi máquina con Windows 7.<br /><br />Para poder añadir estos campos al fichero XML la mejor opción es bajarse <a href="http://nuget.codeplex.com/releases/view/100803" target="_blank">NuGet.exe desde aquí</a> y ejecutar los siguientes comandos:<br /><blockquote class="tr_bq">nuget.exe config -set http_proxy=http://my.proxy.address:port<br />nuget.exe config -set http_proxy.user=mydomain\myUserName<br />nuget.exe config -set http_proxy.password=mySuperSecretPassword</blockquote>
+</div>

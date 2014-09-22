@@ -1,0 +1,11 @@
+---
+title: "Desmontar array en un puerto de Biztalk"
+layout: post
+date: "2012-03-29 09:37:00"
+updated: "2012-03-29 09:38:50"
+tags: [.NET, puerto, Biztalk]
+---
+
+<div class="css-full-post-content js-full-post-content">
+Después de crear mi primera aplicación con Biztalk estoy viendo infinidad de formas de mejorarla.&nbsp;Aquí&nbsp;explicaré como me "ahorro" toda una orquestación configurando un puerto y un schema de una manera determinada<br /><br />ANTES:<br /><br />Había que pedir un array de mensajes a un servicio y luego desmontarlo,&nbsp;mi solución fue un clásico bucle<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-X6WmmM7bD_4/T2m7ktAAceI/AAAAAAAAV4k/5JWmYYThHDM/s1600/debatch.PNG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="584" src="http://4.bp.blogspot.com/-X6WmmM7bD_4/T2m7ktAAceI/AAAAAAAAV4k/5JWmYYThHDM/s640/debatch.PNG" width="640" /></a></div><br /><br />DESPUÉS:<br /><br />Gracias a <a href="http://seroter.wordpress.com/2010/04/08/debatching-inbound-messages-from-biztalk-wcf-sql-adapter/">este artículo</a>, vi como conseguir que entraran los mensajes uno por uno. Básicamente los pasos necesarios son:<br /><br />- Crear un ReceivePort del tipo Scheduler que vaya generando llamadas<br />- Crear un SendPort TwoWay que ataque al servicio, con un filtro para que le vayan entrando las llamas creadas por el Scheduler<br />- Recibir los mensajes de respuesta directamente en la orquestación con un Direct Port y un Receive Message con filtro<br />- Editar los esquemas del paquete en cuestión, de la siguiente forma:<br /><br />El nodo Schema le activamos el modo Envelope<br /><br /><img alt="2010.4.8sql12" src="http://seroter.files.wordpress.com/2010/04/2010-4-8sql12_thumb.jpg?w=454&amp;h=213" /><br /><br />Editamos el XPATH del nodo raiz y le hacemos apuntar al nodo superior al nodo leaf<br /><br /><img alt="2010.4.8sql13" src="http://seroter.files.wordpress.com/2010/04/2010-4-8sql13_thumb.jpg?w=454&amp;h=254" /><br /><br />Finalmente, el nodo leaf le cambiamos el MaxOccurrence a 1<br /><br />Saludos!<br /><br /><br /><br />
+</div>

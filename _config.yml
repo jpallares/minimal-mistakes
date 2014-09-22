@@ -2,7 +2,8 @@
 
 title:            Juan Pallarès
 locale:           en_US
-url:              http://jpallares.github.io
+#url:              http://jpallares.github.io
+url:              http://juan.pallares.me
 #url:              http://0.0.0.0:4000/
 
 # Jekyll configuration
