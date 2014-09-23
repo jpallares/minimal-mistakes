@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Juan Pallarès
+title:            Juan Pallarès Garbí
 locale:           en_US
 url:              http://juan.pallares.me
 #url:              http://0.0.0.0:4000/
@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Juan Pallarès
   avatar: bio-photo.jpg
-  bio: ".NET Software Engineer, football and technology lover."
+  bio: ".NET Software Engineer, football and technology lover from Barcelona."
   email: juan@pallares.me
   disqus-shortname: jpallares
   twitter: juanpallares

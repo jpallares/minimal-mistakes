@@ -2,10 +2,14 @@
 layout: page
 title: CV
 modified: 2014-09-08T20:53:07.573882-04:00
-comments: true
+image:
+  feature: NYCweilah.jpg
+  credit: weilah
+  creditlink: http://500px.com/weilah
 ---
 
-**Keep in mind** In my [LinkedIn profile](http://linkedin.com/in/juanpallares) there is more detailed information
+**Notice** there is more detailed information in my [LinkedIn profile](http://linkedin.com/in/juanpallares) 
+{: .notice}
 
 ---
 
