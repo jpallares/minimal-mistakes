@@ -2,6 +2,7 @@
 
 title:            Juan Pallarès Garbí
 locale:           en_US
+<<<<<<< HEAD
 #url:              http://juan.pallares.me
 url:              http://localhost:4000
 
@@ -49,7 +50,11 @@ owner:
   pinterest: 
   foursquare: 
   steam: 
-  dribbble: 
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
