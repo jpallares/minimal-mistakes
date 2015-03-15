@@ -2,9 +2,8 @@
 
 title:            Juan Pallarès Garbí
 locale:           en_US
-<<<<<<< HEAD
-#url:              http://juan.pallares.me
-url:              http://localhost:4000
+url:              http://juan.pallares.me
+#url:              http://localhost:4000
 
 # Jekyll configuration
 
