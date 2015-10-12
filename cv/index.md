@@ -15,6 +15,7 @@ image:
 
 ### Training
 
+* 2015 - M101N: MongoDB for .NET Developers
 * 2013 - 70-483 - Programming in C# Specialist
 * 2011 - 70-511 Windows Application Development with Microsoft .NET Framework
 * 2010 - 70-536 Microsoft .NET Framework - Application Development Foundation
@@ -23,7 +24,7 @@ image:
 
 ### Skills
 
-* 4 years working with .NET techonologies
+* +5 years working with .NET techonologies
 	* WPF, Silverlight, WCF, TFS, MSSQL
 * ALM, Scrum
 
