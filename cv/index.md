@@ -15,6 +15,7 @@ image:
 
 ### Training
 
+* 2016 - PSM I: Professional Scrum Master - [Scrum.org](scrum.org)
 * 2015 - M101N: MongoDB for .NET Developers
 * 2013 - 70-483 - Programming in C# Specialist
 * 2011 - 70-511 Windows Application Development with Microsoft .NET Framework
@@ -31,7 +32,8 @@ image:
 ### Professional experience
 
 * 10/2013 - Now - .NET Software Engineer at **ERNI**
-	* Pharmaceutical company
+	* Roche
+	* Ancert
 * 09/2011 - 10/2013 - .NET Software Engineer at **E-TIC Sistemes**
 	* Linde
 	* AirProducts

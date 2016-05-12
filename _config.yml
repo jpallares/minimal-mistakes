@@ -24,10 +24,10 @@ kramdown:
   use_coderay: false
 
 
-# Site owner
+# Site owner bio-photo
 owner:
   name: Juan Pallarès
-  avatar: bio-photo.jpg
+  avatar: juanpallares.jpg
   bio: ".NET Software Engineer, football and technology lover from Barcelona."
   email: juan@pallares.me
   disqus-shortname: jpallares
