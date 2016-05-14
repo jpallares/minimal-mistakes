@@ -1,10 +1,7 @@
 ---
-layout: post
 title: Engineering culture at Spotify
 modified: 2014-10-11
 tags: [agile, spotify, scrum]
-comments: true
-share: true
 ---
 
 Sometimes people think Agile is only for small companies and impossible for the big ones. 

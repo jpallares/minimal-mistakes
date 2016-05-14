@@ -1,16 +1,13 @@
 ---
-layout: post
 title: MEAN Hackaton
 tags: [MEAN, hackaton, mongodb, angular.js, express, node.js]
-comments: true
-share: true
 image:
   feature: PANO_hackaton.jpg
 ---
 
 Since I did the [MongoDB course](http://pallares.me/mongodb-for-NET-M101N/) I got involved in organizing a Hackaton in the [MEAN stack](http://mean.io/).
 
-####What the hell is MEAN?
+### What the hell is MEAN?
 
 MEAN is an opinionated fullstack javascript framework which simplifies and accelerates web application development.
 
@@ -21,7 +18,7 @@ MEAN is an opinionated fullstack javascript framework which simplifies and accel
 
 As you see it covers everything, database, server and web. It let's you do decent web apps in a short time.
 
-####Hackaton
+### Hackaton
 
 The people got divided in teams of three and after a brief introduction of the MEAN stack  (20 minutes per technology) they had literally one day and a half to make something cool. 
 

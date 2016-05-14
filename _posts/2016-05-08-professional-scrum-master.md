@@ -1,9 +1,6 @@
 ---
-layout: post
 title: Professional Scrum Master certification
 tags: [scrum master, scrum.org, agile, scrum, training, certification]
-comments: true
-share: true
 ---
 
 I recently obtained the Professional Scrum Master certification (PSM I) issued by [scrum.org](scrum.org). In order to do it I had avantage since I received official training but anyway I think is doable without it, some tips:

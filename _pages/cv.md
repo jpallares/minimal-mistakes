@@ -1,5 +1,5 @@
 ---
-layout: page
+permalink: /cv/
 title: CV
 modified: 2014-09-08T20:53:07.573882-04:00
 image:

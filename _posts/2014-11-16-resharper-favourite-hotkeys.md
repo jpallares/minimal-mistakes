@@ -1,9 +1,6 @@
 ---
-layout: post
 title: Resharper favourite hotkeys	
 tags: [resharper, c#, programming, .NET]
-comments: true
-share: true
 ---
 
 When coding in C# with Visual Studio usually you get enough help with Intellisense and [Visual Studio shortcuts](http://visualstudioshortcuts.com/), which there are plenty:

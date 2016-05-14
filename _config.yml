@@ -7,25 +7,25 @@
 
 title                    : Juan Pallarès Garbí
 locale                   : en_US
-url                      : http://juan.pallares.me
-#url                     : http://localhost:4000
+#url                      : http://juan.pallares.me
+url                      : http://localhost:4000
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Juan Pallarès Garbí"
+description              : "Landing page."
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "black_keyboard.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+#  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus"
   disqus:
     shortname            : jpallares
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 5
     colorscheme          : # "light" (default), "dark"
 
 # SEO Related
@@ -36,22 +36,27 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : juanpallares
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "Untitled.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/juanpallares"
+    - "https://instagram.com/juan.pallares"
+    - "https://www.linkedin.com/in/juanpallares"
+    - "https://plus.google.com/JuanPallarèsGarbí"
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+#  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal"
   google:
     tracking_id          : UA-54458401-1
 
@@ -59,14 +64,13 @@ analytics:
 google_ad_client         :
 google_ad_slot           :
 
-
 # Site Author
 author:
   name             : "Juan Pallarès"
   avatar           : "juanpallares.jpg"
   bio              : ".NET Software Engineer, football and technology lover from Barcelona."
   location         : "Barcelona"
-  email            : "juan@pallares.me"
+  email            : juan@pallares.me
   uri              :
   bitbucket        :
   codepen          :
@@ -90,7 +94,6 @@ author:
   weibo            :
   xing             :
   youtube          :
-
 
 # Reading Files
 include:
@@ -147,9 +150,9 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: /Europe/Madrid
 
 
 # Plugins
@@ -187,15 +190,15 @@ tags:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+  # enabled:
+    # - categories
+    # - tags
+  # layouts:
+    # category: archive-taxonomy
+    # tag: archive-taxonomy
+  # permalinks:
+    # category: /categories/:name/
+    # tag: /tags/:name/
 
 
 # HTML Compression
@@ -204,3 +207,23 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

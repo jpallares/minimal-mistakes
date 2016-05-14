@@ -1,12 +1,9 @@
 ---
-layout: post
 title: Explaining SOLID principles with C# examples
 tags: [SOLID, C#, code, examples]
-comments: true
-share: true
 ---
 
-###What is SOLID?
+### What is SOLID?
 
 [SOLID](http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) are five basic principles for object-oriented programming and design. If applied, the solution is more likely to be easy to maintain and extend over time, which helps to create good software architecture. The SOLID acronym stands for:  
 
@@ -16,7 +13,7 @@ share: true
 * **I** - Interface segregation principle  
 * **D** - Dependency inversion principle
 
-###Single responsability principle (SRP)
+### Single responsability principle (SRP)
 
 {% highlight c# %}
 public class Engine
@@ -76,7 +73,7 @@ public class Starter
 }
 {% endhighlight %}
 
-###Open-closed principle (OCP)
+### Open-closed principle (OCP)
 
 Following the same approach let's see what's wrong with this code:
 
@@ -125,7 +122,7 @@ class SilverCustomer : Customer
 }
 {% endhighlight %}
 
-###Liskov substitution principle (LSP)
+### Liskov substitution principle (LSP)
 
 **Derived classes should be perfectly substitutable for their base classes**.
 
@@ -198,7 +195,7 @@ namespace SolidDemo
 }
 {% endhighlight %}
 
-###Interface segregation principle (ISP)
+### Interface segregation principle (ISP)
 
 The goal behind ISP is that **no client consuming an interface should be forced to depend on methods it does not use**. For example, you might have a class that implements an interface called IPersist.
 
@@ -337,7 +334,7 @@ public class ProductService
 
 Now anyone using Product Service will know they need an implementation of IProductRepository and IProductStrategy, but not an specific one.
 
-###Conclusion
+### Conclusion
 
 I hope the examples I picked were good enough to understand the SOLID principles. This was just an introduction, there is [much more detail available](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod).
 

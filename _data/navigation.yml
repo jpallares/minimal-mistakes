@@ -1,8 +1,5 @@
 # main links links
-main:
-- title: All Posts
-  url: /posts/
-  
+main: 
 - title: cv
   url: /cv/
 

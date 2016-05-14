@@ -1,13 +1,10 @@
 ---
-layout: post
 title: Markdown syntax introduction
 modified: 2014-26-10
 tags: [markdown, syntax, blogging, HTML]
-comments: true
-share: true
 ---
 
-###What is it?
+### What is it?
 
 Markdown is a **plain text formatting syntax designed so that it optionally can be converted to HTML using a tool by the same name**. Markdown is popularly used to format readme files, for writing messages in online discussion forums or in text editors for the quick creation of rich text documents.
 
@@ -17,26 +14,26 @@ The overriding design goal for Markdown’s formatting syntax is to make it as r
 **Markdown is not a replacement for HTML**, or even close to it. Its syntax is very small, corresponding only to a very small subset of HTML tags. The idea is not to create a syntax that makes it easier to insert HTML tags. The idea for Markdown is to make it easy to read, write, and edit prose. HTML is a publishing format; Markdown is a writing format. Thus, Markdown’s formatting syntax only addresses issues that can be conveyed in plain text.
 {: .notice}
 
-###Iniline HTML
+### Iniline HTML
 
 For any markup that is not covered by Markdown’s syntax, you simply use HTML itself. There’s no need to preface it or delimit it to indicate that you’re switching from Markdown to HTML; you just use the tags.
 The only restrictions are that block-level HTML elements — e.g.` <div>,<table>, <pre>, <p>`, etc. — must be separated from surrounding content by blank lines, and the start and end tags of the block should not be indented with tabs or spaces. Markdown is smart enough not to add extra (unwanted) `<p>` tags around HTML block-level tags.
 
-###Some history
+### Some history
 
 The Markdown language was created in 2004 by John Gruber with substantial contributions from Aaron Swartz, with the goal of allowing people “to write using an easy-to-read, easy-to-write plain text format, and optionally convert it to structurally valid XHTML (or HTML)”. Gruber wrote a Perl script, Markdown.pl, which converts marked-up text input to valid, well-formed XHTML or HTML. Markdown has since been re-implemented by others as a Perl module available on CPAN (Text::Markdown), and in a variety of other programming languages. It is distributed under a BSD-style license and is included with, or available as a plugin for, several content-management systems.
 Sites such as GitHub, reddit, Diaspora, Stack Exchange, OpenStreetMap, and SourceForge use variants of Markdown to facilitate discussion between users.
 
-###Editors
+### Editors
 
 While Markdown is a minimal markup language and is easily read and edited with a normal text editor, there are specially designed editors that preview the files with styles. There are a variety of such editors available for all major platforms; one such graphical editor for Windows is [MarkdownPad](http://markdownpad.com/). There are syntax highlighting plugins for Markdown built into emacs, gedit, and vim.
 There are also online potions such us [Dingus](http://daringfireball.net/projects/markdown/dingus) and [StackEdit](https://stackedit.io/).
 
-###Examples
+### Examples
 
 The best way to understand markdown is to see it in use, here we can see a left column with the Markdown input and right column with the HTML output:
 
-####Headers
+#### Headers
 {% highlight css %}
 A First Level Header
 ====================
@@ -53,7 +50,7 @@ A Second Level Header
 <h3>Another deeper heading</h3>
 {% endhighlight %}
 
-####Paragraphs
+#### Paragraphs
 {% highlight css %}
 Paragraphs are separated
 by a blank line.
@@ -69,7 +66,7 @@ by a blank line.</p>
 line break</p>
 {% endhighlight %}
 
-####Blockquote
+#### Blockquote
 {% highlight css %}
 > This is a blockquote.
 > 
@@ -88,7 +85,7 @@ line break</p>
 </blockquote>
 {% endhighlight %}
 
-####Emphasize
+#### Emphasize
 {% highlight css %}
 Some of these words *are emphasized*.
 Some of these words _are emphasized also_.
@@ -105,7 +102,7 @@ Some of these words <em>are emphasized also</em>.</p>
 Or, if you prefer, <strong>use two underscores instead</strong>.</p>
 {% endhighlight %}
 
-####Links
+#### Links
 {% highlight css %}
 A [link](http://example.com).
 This is an [example link](http://example.com/ "With a Title").
@@ -116,7 +113,7 @@ This is an [example link](http://example.com/ "With a Title").
 <p>This is an <a href="http://example.com/" title="With a Title"> example link</a>.</p>
 {% endhighlight %}
 
-####Lists
+#### Lists
 {% highlight css %}
 *   Candy.
 *   Gum.
@@ -150,7 +147,7 @@ And this
 </li>
 {% endhighlight %}
 
-####Reference
+#### Reference
 {% highlight css %}
 I get 10 times more traffic from [Google][1] than from
 [Yahoo][2] or [MSN][3].
@@ -167,7 +164,7 @@ title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/"
 title="MSN Search">MSN</a>.</p>
 {% endhighlight %}
 
-####Image
+#### Image
 {% highlight css %}
 ![alt text](/path/to/img.jpg "Title")
 {% endhighlight %}

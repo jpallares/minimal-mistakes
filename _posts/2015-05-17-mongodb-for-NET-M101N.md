@@ -1,9 +1,6 @@
 ---
-layout: post
 title: M101N MongoDB for .NET 
 tags: [mongo, .NET, mongodb, course]
-comments: true
-share: true
 ---
 
 I just finished the online course [M101N MongoDB for .NET](https://university.mongodb.com/courses/M101N/about) and I really enjoyed it. They combine short videos and a quiz after them checking you understood the explanation. There is also homework every week and a final exam.
@@ -18,7 +15,7 @@ There are also [another possible courses](https://university.mongodb.com/courses
 
 Querying in MongoDB is with *JavaScript* and it takes some time to set your mind to use it instead of SQL. I'll leave your with some SQL statements and the equivalent in MongoDB:
 
-####Simple query
+### Simple query
 
 {% highlight SQL %}
 SELECT *
@@ -29,7 +26,7 @@ FROM users
 db.users.find()
 {% endhighlight %}
 
-####Filter
+### Filter
 
 {% highlight SQL %}
 SELECT *
@@ -44,7 +41,7 @@ db.users.find(
 )
 {% endhighlight %}
 
-####Filter and order
+### Filter and order
 
 {% highlight SQL %}
 SELECT *
