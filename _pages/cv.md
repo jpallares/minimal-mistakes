@@ -2,10 +2,9 @@
 permalink: /cv/
 title: CV
 modified: 2014-09-08T20:53:07.573882-04:00
-image:
-  feature: NYCweilah.jpg
-  credit: weilah
-  creditlink: http://500px.com/weilah
+header:	
+  image: NYCweilah.jpg
+  caption: "Photo credit: [weilah](http://500px.com/weilah)"
 ---
 
 **Notice** there is more detailed information in my [LinkedIn profile](http://linkedin.com/in/juanpallares) 

@@ -1,8 +1,8 @@
 ---
 title: MEAN Hackaton
 tags: [MEAN, hackaton, mongodb, angular.js, express, node.js]
-image:
-  feature: PANO_hackaton.jpg
+header:
+  image: PANO_hackaton.jpg
 ---
 
 Since I did the [MongoDB course](http://pallares.me/mongodb-for-NET-M101N/) I got involved in organizing a Hackaton in the [MEAN stack](http://mean.io/).
