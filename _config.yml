@@ -7,8 +7,8 @@
 
 title                    : Juan Pallarès Garbí
 locale                   : en_US
-#url                      : http://juan.pallares.me
-url                      : http://localhost:4000
+url                      : http://juan.pallares.me
+# url                      : http://localhost:4000
 title_separator          : "-"
 name                     : "Juan Pallarès Garbí"
 description              : "Landing page."
@@ -16,6 +16,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : "black_keyboard.jpg"
 # breadcrumbs            : false # true, false (default)
+reading_time			 : false
 words_per_minute         : 200
 comments:
 #  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
@@ -152,7 +153,7 @@ kramdown:
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: /Europe/Madrid
+timezone: Europe/Madrid
 
 
 # Plugins
@@ -183,9 +184,11 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 categories:
+  # type: jekyll-archives
   type: liquid
   path: /categories/
 tags:
+  # type: jekyll-archives
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
@@ -216,7 +219,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true

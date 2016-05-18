@@ -2,6 +2,7 @@
 title: MEAN Hackaton
 tags: [MEAN, hackaton, mongodb, angular.js, express, node.js]
 header:
+  teaser: PANO_hackaton.jpg
   image: PANO_hackaton.jpg
 ---
 

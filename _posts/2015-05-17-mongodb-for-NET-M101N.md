@@ -1,6 +1,6 @@
 ---
 title: M101N MongoDB for .NET 
-tags: [mongo, .NET, mongodb, course]
+tags: [mongo, .NET, mongodb, course, certification]
 ---
 
 I just finished the online course [M101N MongoDB for .NET](https://university.mongodb.com/courses/M101N/about) and I really enjoyed it. They combine short videos and a quiz after them checking you understood the explanation. There is also homework every week and a final exam.

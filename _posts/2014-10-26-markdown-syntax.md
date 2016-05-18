@@ -2,6 +2,7 @@
 title: Markdown syntax introduction
 modified: 2014-26-10
 tags: [markdown, syntax, blogging, HTML]
+excerpt: Plain text formatting syntax designed so that it optionally can be converted to HTML using a tool by the same name
 ---
 
 ### What is it?
