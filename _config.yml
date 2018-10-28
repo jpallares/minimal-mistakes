@@ -52,7 +52,6 @@ social:
     - "https://twitter.com/juanpallares"
     - "https://instagram.com/juan.pallares"
     - "https://www.linkedin.com/in/juanpallares"
-    - "https://plus.google.com/JuanPallarèsGarbí"
 
 # Analytics
 analytics:
@@ -69,7 +68,7 @@ google_ad_slot           :
 author:
   name             : "Juan Pallarès"
   avatar           : "juanpallares.jpg"
-  bio              : ".NET Software Engineer, football and technology lover from Barcelona."
+  bio              : "Software Engineer, football and technology lover from Barcelona."
   location         : "Barcelona"
   email            : juan@pallares.me
   uri              :
@@ -80,7 +79,7 @@ author:
   facebook         :
   foursquare       :
   github           : "jpallares"
-  google_plus      : "JuanPallarèsGarbí"
+  google_plus      :
   keybase          :
   instagram        : juan.pallares
   lastfm           :
