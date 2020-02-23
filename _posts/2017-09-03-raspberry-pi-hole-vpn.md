@@ -18,7 +18,7 @@ The installation is very easy and once you have done you can access to manager w
 curl -sSL https://install.pi-hole.net | bash
 ```
 
-![Pi-hole](../images/pihole.png "Pi-hole")
+![Pi-hole](../images/pihole.PNG "Pi-hole")
 
 ### [PiVPN](http://www.pivpn.io/)
 

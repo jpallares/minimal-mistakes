@@ -5,49 +5,49 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-title                    : Juan Pallarès Garbí
-locale                   : en_US
-url                      : http://juan.pallares.me
-# url                      : http://localhost:4000
-title_separator          : "-"
-name                     : "Juan Pallarès Garbí"
-description              : "Landing page."
-baseurl                  : # the subpath of your site, e.g. "/blog"
-gh_repo                  :
-teaser                   : "black_keyboard.jpg"
+title: Juan Pallarès Garbí
+locale: en_US
+url: https://juan.pallares.me
+# url                      : https://localhost:4000
+title_separator: "-"
+name: "Juan Pallarès Garbí"
+description: "Landing page."
+baseurl: # the subpath of your site, e.g. "/blog"
+gh_repo:
+teaser: "black_keyboard.jpg"
 # breadcrumbs            : false # true, false (default)
-reading_time			 : false
-words_per_minute         : 200
+reading_time: false
+words_per_minute: 200
 comments:
-#  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
-  provider               : "disqus"
+  #  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider: "disqus"
   disqus:
-    shortname            : jpallares
+    shortname: jpallares
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : 5
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: 5
+    colorscheme: # "light" (default), "dark"
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 # Social Sharing
 twitter:
-  username               : juanpallares
+  username: juanpallares
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "Untitled.png"
+  username:
+  app_id:
+  publisher:
+og_image: "Untitled.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/juanpallares"
     - "https://instagram.com/juan.pallares"
@@ -55,45 +55,45 @@ social:
 
 # Analytics
 analytics:
-#  provider               : false # false (default), "google", "google-universal", "custom"
-  provider               : "google-universal"
+  #  provider               : false # false (default), "google", "google-universal", "custom"
+  provider: "google-universal"
   google:
-    tracking_id          : UA-54458401-1
+    tracking_id: UA-54458401-1
 
 # Google AdSense
-google_ad_client         :
-google_ad_slot           :
+google_ad_client:
+google_ad_slot:
 
 # Site Author
 author:
-  name             : "Juan Pallarès"
-  avatar           : "juanpallares.jpg"
-  bio              : "Software Engineer, football and technology lover from Barcelona."
-  location         : "Barcelona"
-  email            : juan@pallares.me
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "jpallares"
-  google_plus      :
-  keybase          :
-  instagram        : juan.pallares
-  lastfm           :
-  linkedin         : juanpallares
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : http://stackoverflow.com/users/500843/juan
-  steam            :
-  tumblr           :
-  twitter          : "juanpallares"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  name: "Juan Pallarès"
+  avatar: "juanpallares.jpg"
+  bio: "Software Engineer, football and technology lover from Barcelona."
+  location: "Barcelona"
+  email: juan@pallares.me
+  uri:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github: "jpallares"
+  google_plus:
+  keybase:
+  instagram: juan.pallares
+  lastfm:
+  linkedin: juanpallares
+  pinterest:
+  soundcloud:
+  stackoverflow: https://stackoverflow.com/users/500843/juan
+  steam:
+  tumblr:
+  twitter: "juanpallares"
+  vine:
+  weibo:
+  xing:
+  youtube:
 
 # Reading Files
 include:
@@ -128,14 +128,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -154,7 +152,6 @@ paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Madrid
 
-
 # Plugins
 gems:
   - jekyll-paginate
@@ -170,7 +167,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # Archives
 #  Type
@@ -192,16 +188,15 @@ tags:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
-  # enabled:
-    # - categories
-    # - tags
-  # layouts:
-    # category: archive-taxonomy
-    # tag: archive-taxonomy
-  # permalinks:
-    # category: /categories/:name/
-    # tag: /tags/:name/
-
+# enabled:
+# - categories
+# - tags
+# layouts:
+# category: archive-taxonomy
+# tag: archive-taxonomy
+# permalinks:
+# category: /categories/:name/
+# tag: /tags/:name/
 
 # HTML Compression
 # - http://jch.penibelst.de/

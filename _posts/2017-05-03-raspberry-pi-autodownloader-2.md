@@ -14,7 +14,7 @@ The [installation](https://tektab.com/2015/11/10/running-a-always-on-torrent-box
 
 ### TV shows - Sonarr
 
-![Sonarr](../images/sonarr1.png "Sonarr")
+![Sonarr](../images/sonarr1.PNG "Sonarr")
 
 [Sonarr](https://sonarr.tv/) will handle all the TV shows downloads. I’m in love with Sonarr and the moment you start using it you will feel the same. The [installation](https://www.htpcguides.com/install-sonarr-raspberry-pi-mono-310/) is a little bit more tricky since it involves Mono. Once you have it running, remember to configure it to use the deluge client you installed before (or any other you chose).
 
@@ -23,7 +23,7 @@ Skip the configuration about moving/renaming in Sonarr and CouchPotato. Filebot 
 
 Also you need to set up some indexers for the content (rarbg in my case at the time of writing). After that is easy, just add the shows you are interested in and the quality you want and they will be downloaded automatically when released, skip the part about moving/renaming for the moment. A calendar will be created:
 
-![Sonarr calendar](../images/sonarr2.png "Sonarr calendar")
+![Sonarr calendar](../images/sonarr2.PNG "Sonarr calendar")
 
 If it wasn’t enough you can also configure notification in “Connections”. In my case I have pushbullet telling me when a TV show has been grabbed. Later you will see this is not necessary with Filebot.
 
@@ -31,7 +31,7 @@ If it wasn’t enough you can also configure notification in “Connections”. 
 
 My love doesn’t go only to Sonarr, [CouchPotato](https://couchpota.to/) is also deep in my heart, I guess I have “software polygamy”. Downloading movies will become very easy.
 
-![Couch Potato](../images/couchpotato.png "Couch Potato")
+![Couch Potato](../images/couchpotato.PNG "Couch Potato")
 
 After a very easy installation, the configuration is similar to Sonarr, set you downloader (deluge), indexers and were to download the movies. Skip the part about moving/renaming like before. Once configured what CouchPotato will do for you is download the movies you are interested in the moment they are available in a good enough quality (can be configured), add them to your wanted list and go to the cinema only when really necessary. You can also automatically add movies that have more than an 8 in IMDB….boom!
 
