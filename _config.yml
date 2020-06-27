@@ -50,7 +50,6 @@ social:
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/juanpallares"
-    - "https://instagram.com/juan.pallares"
     - "https://www.linkedin.com/in/juanpallares"
 
 # Analytics
@@ -79,9 +78,10 @@ author:
   facebook:
   foursquare:
   github: "jpallares"
+  gitlab: "jpallares"
   google_plus:
   keybase:
-  instagram: juan.pallares
+  instagram:
   lastfm:
   linkedin: juanpallares
   pinterest:
@@ -99,6 +99,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _books
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -205,6 +206,11 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  books:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -224,3 +230,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _books
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
