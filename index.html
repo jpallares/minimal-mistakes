@@ -9,8 +9,18 @@ header:
 
 <h3 class="archive__subtitle">Recent Posts</h3>
 
-{% for post in paginator.posts %}
+{% assign items_grouped = paginator.posts | group_by: 'ref' %}
+{% for group in items_grouped %}
+  {% if group.items.size > 1 %}
+    {% assign post = group.items | where: "lang",site.lang | first %}
+  {% else %}
+    {% assign post = group.items[0] %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}
+
+
+
+  

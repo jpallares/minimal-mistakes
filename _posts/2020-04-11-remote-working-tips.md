@@ -2,6 +2,8 @@
 title: Remote working tips (COVID-19)
 tags: [remote work, covid-19, tips, job, cofinement]
 excerpt: Sharing my experience after 4 weeks of working remotely (and confined)
+lang: en
+ref: remote-work
 ---
 
 Before this pandemic my experience working remotely was almost non-existent. Maybe half a day because I had a personal matter to attend...or one day the whole team works remotely just to see we are able. But then, suddenly, we are forced to work 100% of our time remotely.

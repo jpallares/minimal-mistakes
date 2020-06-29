@@ -9,6 +9,8 @@ tags:
     floyd
   ]
 excerpt: My humble opinion about George Floyd killing and white privilege
+lang: en
+ref: privilege
 ---
 
 This last days going through my Twitter timeline was really shocking. I hated what I was watching and I couldn't stop watching it. How is it possible that in year 2020 in the most important country of the world, a reference for a lot of developing countries, a policeman can kill a man that is totally surredendered and saying that he can't breathe...

@@ -13,6 +13,8 @@ tags:
     ublock origin
   ]
 excerpt: Why and how I browse blocking ads and trackers
+lang: en
+ref: block-ads-trackers
 ---
 
 For the last months I have been using Brave as my browser for all my devices. The idea of having a Chrome fork that blocks ads and trackers seemed perfect. But Brave is not reliable at all:

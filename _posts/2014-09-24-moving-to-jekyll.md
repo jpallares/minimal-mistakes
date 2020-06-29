@@ -3,6 +3,8 @@ title: Moving to Jekyll
 excerpt: "Leaving Blogger for Jekyll"
 modified: 2014-24-09
 tags: [blogger, jekyll, first post]
+lang: en
+ref: moving-to-jekyll
 ---
 
 After some time using a very simple google site as landing page and a blogger blog I decided to move everything to [Github pages](https://pages.github.com) + [Jekyll](https://help.github.com/articles/using-jekyll-with-pages).

@@ -1,6 +1,8 @@
 ---
 title: C# in depth by Jon Skeet
 tags: [c#, jonskeet, book]
+lang: en
+ref: c-sharp-in-depth
 ---
 
 I just finished reading [C# in depth by Jon Skeet](http://www.amazon.com/Depth-3rd-Edition-Jon-Skeet/dp/161729134X), the book covers the evolution from the first version of C# until C# 5 (at least the edition I read). Explaining in detail all the new features that have been added during time.

@@ -2,6 +2,8 @@
 title: Raspberry Pi 3 a.k.a the 24/7 auto downloader
 tags: [auto, download, movies, raspberry pi, tvshow]
 excerpt: Series of posts in which I’ll explain how the raspberry downloads automatically all my tv shows and movies, also the subtitle and the media in an unattended ...
+lang: en
+ref: autodownload
 ---
 
 ### Why?
