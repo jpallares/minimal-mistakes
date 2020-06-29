@@ -2,6 +2,7 @@
 title: Book - Agile Technical Practices Distilled
 tags: [technical, book, agile, practices]
 excerpt: A technical book that forces you to practice what you learn.
+lang: en
 ---
 
 I try to read technical books often, the problem for me is I like to practice while reading so I really learn it. Some books I started in the past I stopped them because I didn't have the time or the chance to practice what I was reading.

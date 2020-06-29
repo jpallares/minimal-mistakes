@@ -24,11 +24,32 @@
             alt="">
         </div>
       {% endif %}
-      <h2 class="archive__item-title" itemprop="headline">{% if post.id %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% else %}{{ post.title }}{% endif %}{% if post.link %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h2>
+      <h2 class="archive__item-title" itemprop="headline">
+        {% if post.id %}
+          {{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+        {% if post.link %}
+          <i class="fa fa-star" aria-hidden="true"></i>
+        {% endif %}
+      </h2>
       {% if post.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
-      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+          {% assign versions=site.posts | where:"ref", post.ref | sort: 'lang' %}
+          {% if versions.size > 1 %}
+            {% for version in versions %}
+              {% if version.lang != site.lang %}
+                <a href="{{ version.url }}" >{{ site.data.i18n[version.lang].icon }} </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </p>
+      {% endif %}
     </article>
   </a>
 </div>

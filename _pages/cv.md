@@ -1,7 +1,6 @@
 ---
 permalink: /cv/
 title: CV
-modified: 2014-09-08T20:53:07.573882-04:00
 header:
   image: NYCweilah.jpg
   caption: "Photo credit: [weilah](http://500px.com/weilah)"

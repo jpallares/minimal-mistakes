@@ -10,6 +10,8 @@ tags:
     remote
   ]
 excerpt: My experience attending to SoCraTes UK in this new remote version.
+lang: en
+ref: remote-socrates
 ---
 
 ## What is SoCraTes?

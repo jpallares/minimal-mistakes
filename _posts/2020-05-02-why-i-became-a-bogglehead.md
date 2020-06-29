@@ -2,6 +2,8 @@
 title: Investing in index funds. Why I became a boglehead
 tags: [investment, john bogle, index funds, money, boglehead]
 excerpt: A good investment strategy does not have to be difficult.
+lang: en
+ref: bogglehead
 ---
 
 ## Why passive investing

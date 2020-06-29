@@ -2,6 +2,8 @@
 title: Book - The software developer's life manual - John Z. Sonmez
 tags: [books, soft skills, software developer, career, personal brand, blog]
 excerpt: Some comments about the last book I read
+lang: en
+ref: book-software-developer-life-manual
 ---
 
 I recently finished reading the book [Soft Skills: The software developer's life manual - John Z. Sonmez](https://www.amazon.es/Soft-Skills-software-developers-manual/dp/1617292397). It is a really interesting and original book, different from what I'm used to read. I uploaded all the [clippings](https://juan.pallares.me/books/soft-skills-the-software-developer-s-life-manual/) I had about this book but I wanted to analyze it in a post. It gives you advice in very different areas of life like sport or personal finance. It is divided in 7 sections:

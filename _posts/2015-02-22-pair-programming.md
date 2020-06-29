@@ -1,6 +1,8 @@
 ---
 title: Some thoughts about pair programming
 tags: [pair programming, xp, developing, software]
+lang: en
+ref: pair-programming
 ---
 
 After pair programming pretty often for the last months this is what I think about it:

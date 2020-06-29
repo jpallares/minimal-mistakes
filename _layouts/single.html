@@ -33,6 +33,17 @@ layout: default
         </header>
       {% endunless %}
 
+      {% if page.bookauthor == null and page.permalink == null %}
+        {% assign versions=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% if versions.size > 1 %}
+          {% for version in versions %}
+            {% if version.lang != page.lang %}
+              <a href="{{ version.url }}" class="{{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in] }} {{ site.data.i18n[version.lang].icon }} </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endif %}
+
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label }}</a></div>{% endif %}

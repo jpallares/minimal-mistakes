@@ -29,6 +29,9 @@ comments:
     num_posts: 5
     colorscheme: # "light" (default), "dark"
 
+# Multilanguage
+lang: en
+
 # SEO Related
 google_site_verification:
 bing_site_verification:

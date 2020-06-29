@@ -13,6 +13,8 @@ tags:
     cofinement,
   ]
 excerpt: How we decided to manage the MR now that we work remotely
+lang: en
+ref: mergue-request-channel
 ---
 
 As I mentioned in the previous post, in my team [we are very used to be colocated and interact frequently](https://juan.pallares.me/remote-working-tips/). Also since we do pair programming the amount of MR that needs to be accepted by a third person was low, but then we started working fully remote and it all changed.

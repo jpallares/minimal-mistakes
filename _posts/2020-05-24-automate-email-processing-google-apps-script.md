@@ -10,6 +10,8 @@ tags:
     spreadsheet
   ]
 excerpt: How to read your bill email data and create a row in an Spreadsheet automatically.
+lang: en
+ref: automate-email
 ---
 
 Bill Gates is often credited with the quote, *“I will always choose a lazy person to do a difficult job because a lazy person will find an easy way to do it.”*

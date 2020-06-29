@@ -4,6 +4,8 @@ tags: [technical debt, software, development, risk]
 excerpt: You may need to use suboptimal designs in the short term, because the schedule does not allow longer term designs to be used
 header:
   teaser: TechnicalDebt.png
+lang: en
+ref: technical-debt
 ---
 
 The analogy

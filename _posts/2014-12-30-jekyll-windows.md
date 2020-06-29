@@ -2,6 +2,8 @@
 title: Using Jekyll on Windows
 modified: 2014-12-30
 tags: [blog, jekyll, windows, ruby, python]
+lang: en
+ref: jekyll-windows
 ---
 
 I have a Macbook Air and a desktop PC. As a .NET developer I expend more "productive" time on the PC, even if I have a windows partition installed on the Macbook. I started using Jekyll on the MacOS since it was the easy, standard way, but I like flexibility and started looking for how to use it from Windows, I wanted to create new posts from my PC basically.
