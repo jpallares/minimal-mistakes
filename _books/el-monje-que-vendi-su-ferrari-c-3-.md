@@ -1,5 +1,5 @@
 ---
-title: El Monje Que Vendió Su Ferrari(c.3)
+title: El Monje Que Vendió Su Ferrari
 bookauthor: Robin Sharma
 date: 2017-07-04
 quotes:
