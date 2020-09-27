@@ -16,7 +16,7 @@ I added the quotes I picked while reading in [this section](https://juan.pallare
 ![Inception meme](../images/inception-meme.jpg)
 
 ## Write everything down
-This is the key concept of the book. Write down every task, idea, concept that crosses your mind and you feel can/could be important. Our brain is meant to have idead not  to keep all these reminders there. It will generate stress. Implementing this tecnique you will have three benefits:
+This is the key concept of the book. Write down every task, idea, concept that crosses your mind and you feel can/could be important. Our brain is meant to have ideas not  to keep all these reminders there. It will generate stress. Implementing this tecnique you will have three benefits:
 - Less stress.
 - Being present. Not trying to remember what you wanted to do.
 - Actually remembering things because they are written down.
