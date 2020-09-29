@@ -32,6 +32,8 @@ Information about bad news is much more likely to reach us. When things are gett
 
 _The PIN code of the world is 1-1-1-4. That’s how to remember the map. From left to right, the number of billions, as a PIN code. Americas: 1, Europe: 1, Africa: 1, Asia: 4. (I have rounded the numbers.) Like all PIN codes, this one will change. By the end of this century, the UN expects there to have been almost no change in the Americas and Europe but 3 billion more people in Africa and 1 billion more in Asia. By 2100 the new PIN code of the world will be 1-1-4-5. More than 80 percent of the world’s population will live in Africa and Asia._
 
+![world pin code](../images/world_pin_code.png)
+
 _Think of the world as a premature baby in an incubator. The baby’s health status is extremely bad and her breathing, heart rate, and other important signs are tracked constantly so that changes for better or worse can quickly be seen. After a week, she is getting a lot better. On all the main measures, she is improving, but she still has to stay in the incubator because her health is still critical. Does it make sense to say that the infant’s situation is improving? Yes. Absolutely. Does it make sense to say it is bad? Yes, absolutely. Does saying “things are improving” imply that everything is fine, and we should all relax and not worry? No, not at all. Is it helpful to have to choose between bad and improving? Definitely not. It’s both. It’s both bad and better. Better, and bad, at the same time._
 
 ### 3. The **Straight Line** Instinct.
@@ -50,7 +52,7 @@ _I had for some time been appalled by the systematic blaming of climate change o
 
 ### 6. The **Generalization** Instinct.
 
-Generation can't be stopped but we can check if the use is correct. Look for differences within groups, similarities across groups and differences across groups. Example:
+Generalization can't be stopped but we can check if the use is correct. Look for differences within groups, similarities across groups and differences across groups. Example:
 
 _It makes no sense to talk about “African countries” and “Africa’s problems” and yet people do, all the time. It leads to ridiculous outcomes like Ebola in Liberia and Sierra Leone affecting tourism in Kenya, a 100-hour drive across the continent. That is farther than London to Tehran._
 
