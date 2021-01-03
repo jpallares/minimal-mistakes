@@ -94,7 +94,7 @@ It also explains how to quit bad habits, as you guessed is doing the opposite ac
 
 ## Powerful concepts
 
-Now I'm gonna go over some quotes that I liked specially from the book.
+Now I'm gonna go over some quotes that I liked specially from the book. [Find all the quotes here](https://juan.pallares.me/books/atomic-habits-tiny-changes-remarkable-results/).
 
 ### No freedom? Will I become a robot?
 
