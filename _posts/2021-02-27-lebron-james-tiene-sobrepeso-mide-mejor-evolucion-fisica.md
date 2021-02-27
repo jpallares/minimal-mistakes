@@ -10,9 +10,9 @@ ref: fitness-tracking
 
 Con 2,06m y 113kg, el IMC (Índice de Masa Corporal) del cuatro veces campeón de la NBA indica que tiene sobrepeso. Personalmente no le veo sobrepeso por ningún sitio, sobrepeso de éxitos deportivos si me apuras.
 
-En todas las revisiones de salud anuales típicas del trabajo me han dado el valor de IMC. ¿Veis esta medida creíble? ¿Útil? Para mi es demasiado general y puede llegar a confundirte en algunos casos. Después de esta introducción que coquetea con el clickbait, voy a explicar cómo creo que es mejor medir la evolución física.
-
 ![IMC Lebron James](../images/IMCLebron.png)
+
+En todas las revisiones de salud anuales típicas del trabajo me han dado el valor de IMC. ¿Veis esta medida creíble? ¿Útil? Para mi es demasiado general y puede llegar a confundirte en algunos casos. Después de esta introducción que coquetea con el clickbait, voy a explicar cómo creo que es mejor medir la evolución física.
 
 ## No quieres bajar peso, quieres bajar grasa
 
@@ -22,7 +22,7 @@ Esto lo se porque lo he experimentado yo mismo. Desde el 2014 me voy pesando sem
 
 ![80kg septiembre 2014](../images/201480kg.png)
 
-3 años después si solo me fijo en el piso estoy igual. Pero realmente estaba en un estado de forma mucho mejor, ¿cómo puedo saberlo?
+3 años después si solo me fijo en el peso estoy igual. Pero realmente estaba en un estado de forma mucho mejor, ¿cómo puedo saberlo?
 
 ![80kg marzo 2017](../images/201780kg.png)
 
@@ -34,7 +34,7 @@ Esto lo se porque lo he experimentado yo mismo. Desde el 2014 me voy pesando sem
 
 ![80kg marzo 2017 con medidas](../images/201780kgCompleto.png)
 
-Ignora las medidas extras (biceps, butlock, thigh), en 2017 tenía más pecho (2,5cm) y menos cintura (4,5cm), estaba mucho mejor. **Para tener un solo número de referencia de mi evilución física, hago la resta entre pecho y cintura** para calcular los "Johans".
+Ignora las medidas extras (biceps, butlock, thigh), en 2017 tenía más pecho (2,5cm) y menos cintura (4,5cm), estaba mucho mejor. **Para tener un solo número de referencia de mi evolución física, hago la resta entre pecho y cintura** para calcular los "Johans".
 
 Fórmula
 
@@ -46,7 +46,7 @@ Ejemplo:
 
 Cuánto más alto son los Johans mejor, más forma de V. No sabía como llamarlo y se quedo con este nickname de la infancia 🤣.
 
-**Es muy importante pesarse y medirse en las mismas condiciones siempre.** Yo suelo hacerlo el sábado o el domingo justo después de levantarme. Por favor, no es pongais a tomar medidas después de una comilona, un super entreno, etc. Os estáreis autoengañando. Tampoco va bien pesarse diariamente, el peso oscila mucho según como de hidratamos estamos, tránsito intestinal, etc. Te interesa la evolución general.
+**Es muy importante pesarse y medirse en las mismas condiciones siempre.** Yo suelo hacerlo el sábado o el domingo justo después de levantarme. Por favor, no es pongais a tomar medidas después de una comilona, un super entreno, etc. Os estáreis autoengañando. Tampoco va bien pesarse diariamente, el peso oscila mucho según como de hidratamos estamos, tránsito intestinal, etc. **Te interesa la evolución general.**
 
 Una vez ya tienes controladas esas medidas, si quieres dar un paso más puedes medir otras partes. La clave es tener una referencia clara donde medir para que siempre midas en el mismo lugar, en el caso de cintura y pectoral es fácil. Para medir el muslo ya no lo es tanto, ojo con eso. No te pierdas en el detalle, las relevantes son esas dos, las otras son un extra. Por ejemplo, tengo últimamente el objetivo de ganar músculo en las piernas, en este caso si tiene valor medirlas para ver evolución.
 
